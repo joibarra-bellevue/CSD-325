@@ -7,9 +7,10 @@
 def input_analysis():
     numbers = []
     #defining how many times the user will be asked for input 
+    a = int(4)
     for a in range(3):
         number= int(input(f"Enter number {a+1}: "))
-        numbers.append(numberss)
+        numbers.append(number)
 
    #prining assignment requirements using Python built in functions min/max/sum
     print("Low number: " + str(min(numbers)))
