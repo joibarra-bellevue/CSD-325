@@ -1,13 +1,15 @@
 #Jorge Ibarra
 #12/10/2025
 #Assingment 2.2 
+#This program will assk the user to enter numbers. The loop is hard coded with a cutoff at 3 iterations. Program will create an array to store the input. 
+# Low, high, sum, and average of the inputted numbers is calculated and printed. 
 
 
 #declaring an analysis function with all the code required inside of it
 def input_analysis():
     numbers = []
     #defining how many times the user will be asked for input 
-    a = int(4)
+    
     for a in range(3):
         number= int(input(f"Enter number {a+1}: "))
         numbers.append(number)
