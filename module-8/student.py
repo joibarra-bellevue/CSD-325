@@ -40,6 +40,6 @@ print_students(students)
 # Write the updated list back to the json file
 file = open("student.json", "w")
 json.dump(students, file, indent=4)
-file.close()
+
 
 print("\nThe student.json file has been updated.")
